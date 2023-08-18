@@ -13,7 +13,11 @@ return new class extends Migration
     {
         Schema::create('penduduk', function (Blueprint $table) {
             $table->id();
+<<<<<<< HEAD
             $table->string('name');
+=======
+            $table->string('nama');
+>>>>>>> e2897d6 (commit terbaru)
             $table->string('nik')->unique();
             $table->string('tgl_lahir');
             $table->string('kelamin');

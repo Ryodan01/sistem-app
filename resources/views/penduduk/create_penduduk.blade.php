@@ -59,10 +59,16 @@
                                         <label class="col-lg-4 col-form-label" for="validationCustom02">Kelamin <span class="text-danger">*</span>
                                         </label>
                                         <div class="col-lg-6">
+<<<<<<< HEAD
                                             <input type="text" name="kelamin" class="form-control" id="validationCustom02" placeholder="Your valid Kelamin.." required="">
                                             <div class="invalid-feedback">
                                                 Please enter a kelamin.
                                             </div>
+=======
+                                            <input type="radio" name="kelamin" value="male" required> Male
+                                            <input type="radio" name="kelamin" value="female" required> Female
+                                            <br>
+>>>>>>> e2897d6 (commit terbaru)
                                         </div>
                                     </div>
 
